@@ -1,0 +1,182 @@
+html, body {
+  height: 100%;
+}
+
+header {
+  overflow: hidden;
+  height: 150px;
+  background-color: black;
+}
+
+aside {
+  float: right;
+  width: 400px;
+}
+
+#titulo {
+  float: left;
+  width: 350px;
+  padding: 40px 0 0 50px; 
+  text-transform: uppercase;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: red;
+  font-family: 'Dosis', sans-serif;
+  font-size: 20px;
+  color: black;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  font-weight: 500;  
+}
+
+h2 {
+  padding: 0 0 20px 0px;
+  font-size: 1.50em;
+}
+
+p, ul {
+  margin-top: 0;
+}
+
+p {
+  line-height: 180%;
+}
+
+strong {
+  color: #2C2C2C;
+}
+
+nav ul {
+  float: right;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  line-height: normal;
+}
+
+nav li {
+  float: left;
+}
+
+nav {
+  float: right;
+  width: 700px;
+  padding: 60px 50px 0 0;
+}
+
+nav a {
+  display: block;
+  margin-left: 1px;
+  padding: 7px 0 7px 30px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 300;
+  color: black;
+}
+
+img.alignleft {
+  float: left;
+}
+
+#wrapper {
+  overflow: hidden;
+  width: 1200px;
+  background-color: #FFFFFF;
+  margin: 50px auto;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  #logo h1 {
+  padding: 5px 10px 0 0;
+}
+
+#logo h1 a {
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: 300;
+  color: #FFFFFF;
+}
+
+#logo p {
+  display: block;
+  margin-top: -10px;
+  padding: 0;
+  letter-spacing: 1px;
+  font-size: 1.2em;
+  color: #FFFFFF;
+}
+
+#logo p a {
+  color: #FFFFFF;
+}
+
+#contenido {
+  float: left;
+  width: 750px;
+}
+
+#contenido h2 {
+  font-size: 2.10em;
+}
+
+footer {
+  overflow: hidden;
+  margin: 0 50px;
+  padding: 30px 0;
+  border-top: 5px solid #000000;
+}
+
+footer p {
+  text-align: center;
+}
+
+footer a {
+  color: #545454;
+}
+
+
+ul.style1 {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul.style1 li {
+  padding: 25px 0 15px 0;
+}
+
+ul.style1 .first {
+  padding-top: 0;
+  border-top: none;
+}
+
+ul.style1 h3 {
+  padding: 0 0 10px 0;
+}
+
+ul.style1 h3 a {
+  text-transform: none;
+  color: #373737;
+}
+
+ul.style1 a {
+  text-decoration: none;
+  /*color: blue;*/
+}
+
+
+ul.style1 a:hover {
+  text-decoration: underline;
+}
+
+

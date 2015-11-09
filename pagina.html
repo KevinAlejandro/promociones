@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Promociones</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="/home/ubuntu/Escritorio/proyecto1p/estilo.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+            $("#Esconder").click(function(){
+            $("h4").hide(1000);
+            });
+            $("#Mostrar").click(function(){
+            $("h4").show(1000);
+            });
+            });
+            
+</script>
+    </head>
+
+    <body>
+        <div id="wrapper">
+        <header>
+            <div id="titulo">
+                <h1>PROMOCIONES</h1>
+            </div><!-- titulo -->
+        
+        </header>
+        <section id="pagina">
+            <article id="contenido">
+                
+                <img src="promo.jpg" width="550" height="250" alt="Wikileaks" />
+                <p> Bienvendos!! Aqui podras encontras las mejores ofertas de todos los tiempos!!! aqui te tenemos las mejores 3 consultalas y verifica cuando te puedes ahorrar con nosotros!!!</p>
+                 
+            </article>
+            <aside>
+            <div id="lateral">
+                        <button id="Esconder">Esconder</button>
+                        <button id="Mostrar">Mostrar mas...</button>
+                <h2>Laptop:</h2>
+                <ul class="style1">
+                    <li class="first">
+                        
+                        <h3>Toshiba:</h3>
+                         <img src="laptop.jpg" width="200" height="200" alt="laptop" />
+                         
+                         <h4>750 Gb de disco duro, 8Gb de RAM, procesador Intel Core 7, color gris oscuro, </h4>
+                         <h4>De $7,999 a solo $5,999!!! </h4>
+                    
+                    
+                        <h3>Xbox:</h3>
+                        <img src="xbox.jpg" width="200" height="200" alt="xbox" />
+                        <h4>Consola de color negro, 2 controles inhalambricos, juego de Halo 5 incluido.</h4>
+                        <h4>De $6,999 a solo $4,999!!!</h4>
+                        
+                    
+                    </li>
+                </ul>
+            </div><!--"lateral"-->    
+            </aside>
+        </div><!--Wrapper-->
+        <footer>
+                <p>Copyright (c) 2015 Kevin Alejandro Hernandez Carreon. Todos los derechos reservados. Sitio oficial <a href="#">PromocionesdeChihuahua.com</a>.</p>
+            </footer>
+        </section>
+    </body>
+</html>
